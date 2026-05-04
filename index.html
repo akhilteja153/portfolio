@@ -471,9 +471,9 @@ body {
 .profile-img-container {
     width: 100%;
     aspect-ratio: 4/5;
-    border-radius: 30px;
-    background: var(--glass-bg);
-    border: 1px solid var(--glass-border);
+    border-radius: 0;
+    background: transparent;
+    border: none;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -487,6 +487,7 @@ body {
     object-fit: cover;
     z-index: 2;
     position: relative;
+    border: none;
 }
 
 .image-glow {
@@ -1084,10 +1085,12 @@ body {
     <section id="about" class="about section-padding">
         <div class="container about-grid">
             <div class="about-visual reveal-up">
-                <div class="profile-img-container">
-                    <img src="image copy.png" alt="Akhil Teja" class="profile-img">
+                <img src="akhil.png" alt="Akhil Teja" class="profile-img">
                     <div class="image-glow"></div>
-                </div>
+                <!-- <div class="profile-img-container">
+                    <img src="akhil.png" alt="Akhil Teja" class="profile-img">
+                    <div class="image-glow"></div>
+                </div> -->
             </div>
             <div class="about-text reveal-up delay-1">
                 <h2 class="section-title">ABOUT ME<span class="purple-dot"></span></h2>
